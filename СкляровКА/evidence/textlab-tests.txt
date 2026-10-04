@@ -1,0 +1,24 @@
+============================= test session starts =============================
+platform win32 -- Python 3.12.14, pytest-9.1.1, pluggy-1.6.0
+rootdir: C:\Users\duda0\Documents\Codex\2026-10-04\new-chat\outputs\software-engineering\textlab-project
+configfile: pyproject.toml
+testpaths: tests
+plugins: platformdirs-4.12.3, cov-7.1.0
+collected 21 items
+
+tests\test_textlab.py .....................                              [100%]
+
+=============================== tests coverage ================================
+______________ coverage: platform win32, python 3.12.14-final-0 _______________
+
+Name                  Stmts   Miss  Cover   Missing
+---------------------------------------------------
+textlab\__init__.py       0      0   100%
+textlab\analysis.py      10      0   100%
+textlab\api.py           42      0   100%
+textlab\store.py         51      0   100%
+textlab\worker.py        27      7    74%   23-28, 31
+---------------------------------------------------
+TOTAL                   130      7    95%
+Coverage JSON written to file ../evidence/textlab-coverage.json
+============================= 21 passed in 1.50s ==============================
